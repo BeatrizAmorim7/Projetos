@@ -3,7 +3,7 @@
 Projeto desenvolvido na UC de **Processamento de Linguagem Natural em Engenharia Biomédica** (Universidade do Minho, 2024/2025).
 
 ## Objetivo
-Extrair, estruturar e normalizar terminologia médica a partir de documentos PDF não estruturados. O objetivo final foi obter uma estrutura unificada em formato **JSON** para a sua reutilização em sistemas de saúde.
+Extrair, estruturar e normalizar terminologia médica a partir de documentos PDF não estruturados. O objetivo final foi obter uma estrutura unificada em formato **JSON** para ser reutilizado em sistemas de saúde.
 
 ## Fontes Processadas
 1.  **Dicionário Multilingue da COVID-19:** 10 línguas, anotações morfológicas e definições.
