@@ -9,7 +9,7 @@ Este projeto tinha como objetivo expandir o _dataset_ criado no TP1 através do 
 ### 1. Enriquecimento de Dados (Web Scraping)
 Foram desenvolvidos _scrapers_ para extrair definições e novos termos de três fontes fidedignas:
 * **JornalismoPortoNet (JPN):** Extração de HTML estático.
-* **Hospital da Luz:** Utilização de um API interna e _parsing_ de JSON/HTML dinâmico.
+* **Hospital da Luz:** Utilização de uma API interna e _parsing_ de JSON/HTML dinâmico.
 * **Centro Hospitalar Lisboa Ocidental (CHLO):** Navegação por paginação em tabelas HTML.
 
 ### 2. Processamento NLP 
