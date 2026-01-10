@@ -4,4 +4,4 @@ Este repositório reúne os projetos desenvolvidos no âmbito da Unidade Curricu
 
 O repositório está organizado em duas pastas principais, correspondentes às fases de evolução do projeto:
 * TP1 - Extração e Estruturação: Conversão de documentos médicos não estruturados (PDF) em dados organizados (JSON), utilizando expressões regulares e _pipelines_ de limpeza de texto.
-* TP2 - Enriquecimento e Aplicação _Web_: Expande o _dataset_ anterior através de _Web Scraping_, processamento semântico com modelos de linguagem (BERT) e disponibiliza os dados numa plataforma Web interativa desenvolvida em _Flask_.
+* TP2 - Enriquecimento e Aplicação _Web_: Expande o _dataset_ anterior através de _Web Scraping_, processamento semântico com modelos de linguagem (BERT) e disponibiliza os dados numa plataforma _web_ desenvolvida em _Flask_.
