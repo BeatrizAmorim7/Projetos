@@ -1,4 +1,4 @@
-# Extração de Terminologia Médica (PLN)
+# Extração de Terminologia Médica
 
 Projeto desenvolvido na UC de **Processamento de Linguagem Natural em Engenharia Biomédica** (Universidade do Minho, 2024/2025).
 
