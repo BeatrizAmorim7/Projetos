@@ -20,16 +20,16 @@ Foram desenvolvidos _scrapers_ para extrair definições e novos termos de três
 ### 3. Aplicação Web (Flask)
 Interface interativa que permite:
 * **Navegação:** Por índice alfabético ou por categorias temáticas.
-* **Pesquisa Avançada:** Suporte a *Keywords* e Expressões Regulares (Regex).
+* **Pesquisa Avançada:** Suporte a *Keywords* e _Regex_.
 * **CRUD:** Adicionar, Editar e Remover termos.
 * **Redirecionamento:** Gestão inteligente de termos em outras línguas (ex: Catalão) para o termo principal em Português.
 
 ## Estrutura de Dados
-O dataset final foi normalizado para corrigir inconsistências do TP1:
+O _dataset_ final foi normalizado para corrigir inconsistências do TP1:
 * **Chave Primária:** Termos em Português (pt_PT/pt_BR).
 * **Campos Normalizados:** Fusão de `Sinónimos`/`Remissivas` e limpeza de redundâncias.
 
-## Tecnologias
+## Tecnologias utilizadas
 * **Backend:** Python 3, Flask, Jinja2
 * **Frontend:** HTML5, Bootstrap, JavaScript
 * **NLP/Data:** Transformers (Hugging Face), BeautifulSoup4, Requests
