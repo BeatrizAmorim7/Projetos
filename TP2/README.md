@@ -30,7 +30,7 @@ O _dataset_ final foi normalizado para corrigir inconsistências do TP1:
 * **Campos Normalizados:** Fusão de `Sinónimos`/`Remissivas` e limpeza de redundâncias.
 
 ## Tecnologias utilizadas
-*_ **Backend:** Python 3, Flask, Jinja2_
+* _**Backend:** Python 3, Flask, Jinja2_
 * _**Frontend:** HTML5, Bootstrap, JavaScript_
 * _Transformers (Hugging Face), BeautifulSoup4, Requests_
 
