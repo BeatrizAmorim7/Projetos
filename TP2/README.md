@@ -12,7 +12,7 @@ Foram desenvolvidos _scrapers_ para extrair definições e novos termos de três
 * **Hospital da Luz:** Utilização de uma API interna e _parsing_ de JSON/HTML dinâmico.
 * **Centro Hospitalar Lisboa Ocidental (CHLO):** Navegação por paginação em tabelas HTML.
 
-### 2. Processamento NLP 
+### 2. Processamento
 * **Modelo:** Utilização do `bert-base-portuguese-cased`.
 * **Similaridade:** Cálculo de _embeddings_ e similaridade do cosseno para sugerir os 5 termos mais relacionados semanticamente a cada entrada.
 * **Categorização Automática:** Classificação de termos em categorias (e.g., "Diagnóstico", "Farmacologia") comparando _embeddings_ dos termos com vetores médios de categorias.
@@ -32,5 +32,5 @@ O _dataset_ final foi normalizado para corrigir inconsistências do TP1:
 ## Tecnologias utilizadas
 * **Backend:** Python 3, Flask, Jinja2
 * **Frontend:** HTML5, Bootstrap, JavaScript
-* **NLP/Data:** Transformers (Hugging Face), BeautifulSoup4, Requests
+* Transformers (Hugging Face), BeautifulSoup4, Requests
 
