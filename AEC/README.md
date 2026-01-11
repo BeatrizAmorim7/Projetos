@@ -24,7 +24,7 @@ O objetivo principal é auxiliar a decisão clínica, minimizando falsos negativ
 * **`ckd_uci.csv`**: _Dataset_ 
 
 
-## ⚙️ Metodologia e Pipeline
+## Metodologia e Pipeline
 
 O processamento dos dados seguiu etapas rigorosas para garantir a robustez dos modelos:
 
