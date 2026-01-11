@@ -6,35 +6,35 @@
 Esta aplicação *web/mobile* foi desenvolvida com o objetivo de permitir o registo estruturado, a monitorização contínua e o acompanhamento clínico de episódios de dor aguda e crónica.
 A solução distingue-se pela aposta na interoperabilidade semântica, recorrendo à modelação clínica *OpenEHR* e às normas *FHIR*, promovendo a partilha segura e normalizada de dados de saúde.
 
-## Funcionalidades Principais
+## Funcionalidades principais
 
-### Registo e Autenticação
+### Registo e autenticação
 
 * Processo de *onboarding* com recolha de dados clínicos e demográficos.
 * Autenticação simplificada através do número de utente.
 
-### Gestão da Dor e Medicação
+### Gestão da dor e medicação
 
 * Formulários clínicos estruturados baseados em *templates OpenEHR*.
 * Registo de localização, intensidade da dor, fatores de agravamento e de alívio.
 * *Upload* de conteúdos multimédia, como imagens de lesões.
 
-### Dashboard e Visualização
+### Dashboard e visualização
 
 * Calendário interativo para visualização temporal dos episódios de dor.
 * Mapa corporal (*Body Map*) com destaque visual da última zona de dor registada.
 * Gráficos para análise de sintomas frequentes e evolução do estado emocional.
 
-### Monitorização da Saúde Mental (PHQ-6)
+### Monitorização da saúde mental (PHQ-6)
 
 * Adaptação do questionário *PHQ-9* para avaliação do impacto emocional.
 * Sistema de recomendações personalizadas baseado num código de cores, de acordo com o *score* de depressão.
 
-### Sugestões Inteligentes
+### Sugestões inteligentes
 
 * Recomendações personalizadas com base nos fatores de alívio e agravamento mais frequentes.
 
-### Notificações e Alertas
+### Notificações e alertas
 
 * Lembretes semanais personalizáveis para incentivar a continuidade dos registos.
 
@@ -43,7 +43,7 @@ A solução distingue-se pela aposta na interoperabilidade semântica, recorrend
 * Exportação de dados clínicos (paciente, dor e medicação) em formato *FHIR*.
 * Integração com o *Mirth Connect* como intermediário de interoperabilidade.
 
-## Arquitetura da Aplicação
+## Arquitetura da aplicação
 
 A aplicação segue uma arquitetura de três camadas:
 
@@ -58,7 +58,7 @@ A aplicação segue uma arquitetura de três camadas:
 * *Node.js* e *Express*
 * *API RESTful*
 
-### Base de Dados
+### Base de dados
 
 * *PostgreSQL*
 
@@ -67,7 +67,7 @@ A aplicação segue uma arquitetura de três camadas:
 * *Axios* para comunicação HTTP
 * *Mirth Connect* para conversão e envio de recursos *FHIR*
 
-## Modelação Clínica (OpenEHR)
+## Modelação clínica (OpenEHR)
 
 A estrutura dos dados foi concebida com recurso ao *Archetype Designer*, garantindo consistência semântica e conformidade com standards clínicos internacionais.
 Foram utilizados e adaptados vários arquétipos.
@@ -81,7 +81,7 @@ Os dados armazenados na base relacional são convertidos para recursos *FHIR* em
 * Medicação: *MedicationStatement*
 
 
-## Como Executar o Projeto
+## Como executar o projeto
 
 ### Pré-requisitos
 
@@ -98,7 +98,7 @@ git clone https://github.com/exemplo/pain-monitor-app.git
 cd pain-monitor-app
 ```
 
-2. **Configurar a Base de Dados**
+2. **Configurar a base de dados**
 
 * Criar uma base de dados *PostgreSQL*.
 * Executar os scripts SQL disponíveis para criar as tabelas (*personal_info*, *composition*, *body_sites*, entre outras).
