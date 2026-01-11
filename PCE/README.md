@@ -10,7 +10,7 @@ A solução distingue-se pela aposta na interoperabilidade semântica, recorrend
 
 ### Registo e autenticação
 
-* Processo de *onboarding* com recolha de dados clínicos e demográficos.
+* Processo de *onboarding* com recolha de dados clínicos do utilizador.
 * Autenticação simplificada através do número de utente.
 
 ### Gestão da dor e medicação
