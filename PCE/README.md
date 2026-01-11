@@ -6,8 +6,10 @@
 
 **Universidade do Minho** (2024/2025)
 
-Esta aplicação *web/mobile* foi desenvolvida com o objetivo de permitir o registo estruturado, a monitorização contínua e o acompanhamento clínico de episódios de dor aguda e crónica.
-A solução distingue-se pela aposta na interoperabilidade semântica, recorrendo à modelação clínica *OpenEHR* e às normas *FHIR*, promovendo a partilha segura e normalizada dos dados de saúde.
+# Sobre o projeto
+
+Este projeto consiste numa aplicação _web/mobile_ desenvolvida com o objetivo de permitir o registo estruturado, a monitorização contínua e o acompanhamento clínico de episódios de dor aguda e crónica. A solução distingue-se pela aposta na interoperabilidade semântica, que é conseguida através da modelação clínica _OpenEHR_ e das normas FHIR, promovendo a partilha segura e normalizada dos dados de saúde.
+
 
 ## Funcionalidades principais
 
