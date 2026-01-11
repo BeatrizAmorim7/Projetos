@@ -45,8 +45,6 @@ A solução distingue-se pela aposta na interoperabilidade semântica, recorrend
 
 ## Arquitetura da aplicação
 
-A aplicação segue uma arquitetura de três camadas:
-
 ### Frontend
 
 * *React.js*
