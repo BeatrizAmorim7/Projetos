@@ -117,4 +117,4 @@ npm install
 npm start
 ```
 
-A aplicação ficará disponível em `http://localhost:3000`.
+A aplicação estará disponível em `http://localhost:3000`.
