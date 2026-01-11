@@ -1,7 +1,8 @@
 # Aplicação de Monitorização e Gestão da Dor
 
+**Unidade Curricular:** Análise e Extração de Conhecimento (AEC)
 **Mestrado em Engenharia Biomédica | Informática Médica**
-**Universidade do Minho — Ano letivo 2024/2025**
+**Universidade do Minho** (2024/2025)
 
 Esta aplicação *web/mobile* foi desenvolvida com o objetivo de permitir o registo estruturado, a monitorização contínua e o acompanhamento clínico de episódios de dor aguda e crónica.
 A solução distingue-se pela aposta na interoperabilidade semântica, recorrendo à modelação clínica *OpenEHR* e às normas *FHIR*, promovendo a partilha segura e normalizada dos dados de saúde.
