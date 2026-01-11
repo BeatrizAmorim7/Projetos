@@ -1,7 +1,9 @@
 # 🤰 Assistente Virtual de Aconselhamento Pré-Natal (IA)
 
 **Unidade Curricular:** Ambientes Inteligentes para a Saúde (AIS)
+
 **Mestrado em Engenharia Biomédica | Informática Médica**
+
 **Universidade do Minho** - 2024/2025
 
 Este repositório contém a documentação e análise do desenvolvimento de um **assistente virtual baseado em LLMs (Large Language Models)**, desenhado para prestar esclarecimentos e apoio durante a gravidez. O projeto utiliza a framework **Ollama** para comparar o desempenho de diferentes modelos na resposta a questões sobre desenvolvimento fetal, nutrição e cuidados pré-natais.
