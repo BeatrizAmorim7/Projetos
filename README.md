@@ -46,7 +46,7 @@ Este README apresenta um resumo de alguns projetos desenvolvidos.
 
 ---
 
-## 💡 Competências Demonstradas
+## Competências Demonstradas
 - **PLN:** Extração, limpeza, análise e semântica de textos clínicos.  
 - **IA Aplicada:** Machine Learning, LLMs, Data Mining, suporte à decisão clínica.  
 - **Interoperabilidade** OpenEHR, FHIR, integração de dados clínicos.
