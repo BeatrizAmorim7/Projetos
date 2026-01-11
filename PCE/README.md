@@ -6,8 +6,6 @@
 Esta aplicação web/mobile foi desenvolvida com o objetivo de permitir o registo estruturado, a monitorização contínua e o acompanhamento clínico de episódios de dor aguda e crónica.
 A solução distingue-se pela aposta na interoperabilidade semântica, recorrendo à modelação clínica OpenEHR e às normas FHIR, promovendo a partilha segura e normalizada de dados de saúde.
 
----
-
 ## Funcionalidades Principais
 
 ### Registo e Autenticação
@@ -45,7 +43,7 @@ A solução distingue-se pela aposta na interoperabilidade semântica, recorrend
 * Exportação de dados clínicos (paciente, dor e medicação) em formato FHIR.
 * Integração com o Mirth Connect como intermediário de interoperabilidade.
 
----
+
 
 ## Arquitetura da Aplicação
 
@@ -71,7 +69,6 @@ A aplicação segue uma arquitetura de três camadas:
 * Axios para comunicação HTTP
 * Mirth Connect para conversão e envio de recursos FHIR
 
----
 
 ## Modelação Clínica (OpenEHR)
 
@@ -96,7 +93,7 @@ Foram utilizados e adaptados os seguintes arquétipos:
 * openEHR-EHR-COMPOSITION.medication_list
 * openEHR-EHR-OBSERVATION.medication_use_statement
 
----
+
 
 ## Interoperabilidade FHIR
 
@@ -106,7 +103,7 @@ Os dados armazenados na base relacional são convertidos para recursos FHIR em f
 * Bundle Dor: Condition, Observation (sintomas, PHQ-9), DocumentReference
 * Medicação: MedicationStatement
 
----
+
 
 ## Como Executar o Projeto
 
