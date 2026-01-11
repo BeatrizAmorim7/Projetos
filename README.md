@@ -36,7 +36,7 @@ Este README apresenta um resumo de alguns projetos desenvolvidos.
 
 ---
 
-### [Previsão de Doença Renal Crónica (CKD)]()
+### [Previsão de Doença Renal Crónica (CKD)](AEC)
 **Objetivo:** Identificar padrões clínicos e prever CKD para intervenção precoce.  
 **Descrição resumida:**  
 - Pré-processamento, feature selection, balanceamento de dados (SMOTE).  
