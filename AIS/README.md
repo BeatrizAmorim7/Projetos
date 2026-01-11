@@ -1,4 +1,4 @@
-# 🤰 Assistente Virtual de Aconselhamento Pré-Natal (IA)
+# Assistente Virtual de Aconselhamento Pré-Natal (IA)
 
 **Unidade Curricular:** Ambientes Inteligentes para a Saúde (AIS)
 
