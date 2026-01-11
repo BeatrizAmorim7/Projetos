@@ -16,7 +16,7 @@ Este README apresenta um resumo de alguns projetos desenvolvidos.
 
 ---
 
-### 2️⃣ [Monitorização e Gestão da Dor](PCE)
+### [Monitorização e Gestão da Dor](PCE)
 **Objetivo:** Permitir registo, acompanhamento e análise de episódios de dor aguda e crónica.  
 **Descrição resumida:**  
 - Formulários clínicos estruturados (**OpenEHR**).  
@@ -26,7 +26,7 @@ Este README apresenta um resumo de alguns projetos desenvolvidos.
 
 ---
 
-### 3️⃣ [Assistente Virtual Pré-Natal](AIS)
+### [Assistente Virtual Pré-Natal](AIS)
 **Objetivo:** Fornecer informação segura e empática sobre gravidez.  
 **Descrição resumida:**  
 - Assistente baseado em **LLMs** (Ollama).  
@@ -36,7 +36,7 @@ Este README apresenta um resumo de alguns projetos desenvolvidos.
 
 ---
 
-### 4️⃣ [Previsão de Doença Renal Crónica (CKD)]()
+### [Previsão de Doença Renal Crónica (CKD)]()
 **Objetivo:** Identificar padrões clínicos e prever CKD para intervenção precoce.  
 **Descrição resumida:**  
 - Pré-processamento, feature selection, balanceamento de dados (SMOTE).  
