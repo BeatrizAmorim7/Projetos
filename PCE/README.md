@@ -67,7 +67,7 @@ A aplicação segue uma arquitetura de três camadas:
 ### Integração
 
 * Axios para comunicação HTTP
-*_ Mirth Connect_ para conversão e envio de recursos FHIR
+*_Mirth Connect_ para conversão e envio de recursos FHIR
 
 
 ## Modelação Clínica (OpenEHR)
