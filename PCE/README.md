@@ -1,136 +1,150 @@
 # Aplicação de Monitorização e Gestão da Dor
 
-**Mestrado em Engenharia Biomédica | Informática Médica** **Universidade do Minho** - 2024/2025
+**Mestrado em Engenharia Biomédica | Informática Médica**
+**Universidade do Minho — Ano letivo 2024/2025**
 
-Este projeto consiste numa aplicação _web/mobile_ desenvolvida para permitir o registo estruturado, monitorização e acompanhamento de episódios de dor (aguda e crónica). A solução foca-se na interoperabilidade semântica, utilizando modelação **OpenEHR** e normas **FHIR**.
+Esta aplicação web/mobile foi desenvolvida com o objetivo de permitir o registo estruturado, a monitorização contínua e o acompanhamento clínico de episódios de dor aguda e crónica.
+A solução distingue-se pela aposta na interoperabilidade semântica, recorrendo à modelação clínica OpenEHR e às normas FHIR, promovendo a partilha segura e normalizada de dados de saúde.
+
+---
 
 ## Funcionalidades Principais
 
-* **Registo e Autenticação:**
-* _Onboarding_ com recolha de dados clínicos e demográficos.
-* _Login_ simplificado com o número de utente.
+### Registo e Autenticação
 
+* Processo de onboarding com recolha de dados clínicos e demográficos.
+* Autenticação simplificada através do número de utente.
 
-* **Gestão da Dor e Medicação:**
-* Formulários clínicos estruturados baseados em templates _OpenEHR_.
-* Registo de localização, intensidade, fatores precipitantes e de alívio.
-* _Upload_ de conteúdos multimédia (ex: fotos de lesões).
+### Gestão da Dor e Medicação
 
+* Formulários clínicos estruturados baseados em templates OpenEHR.
+* Registo de localização, intensidade da dor, fatores de agravamento e de alívio.
+* Upload de conteúdos multimédia, como imagens de lesões.
 
-* **Dashboard e Visualização:**
-* **Calendário Interativo:** Visualização temporal dos episódios.
-* **Mapa Corporal (Body Map):** Destaque visual da última zona de dor registada.
-* **Gráficos:** Análise de sintomas frequentes e evolução do estado emocional.
+### Dashboard e Visualização
 
+* Calendário interativo para visualização temporal dos episódios de dor.
+* Mapa corporal (Body Map) com destaque visual da última zona de dor registada.
+* Gráficos para análise de sintomas frequentes e evolução do estado emocional.
 
-* **Monitorização de Saúde Mental (PHQ-6):**
-* Adaptação do questionário PHQ-9 para monitorizar impacto emocional.
-* Recomendações personalizadas (sistema de cores) baseadas no _score_ de depressão.
+### Monitorização da Saúde Mental (PHQ-6)
 
+* Adaptação do questionário PHQ-9 para avaliação do impacto emocional.
+* Sistema de recomendações personalizadas baseado num código de cores, de acordo com o score de depressão.
 
-* **Sugestões Inteligentes:**
-* Dicas personalizadas baseadas nos fatores de alívio e agravamento mais frequentes.
+### Sugestões Inteligentes
 
+* Recomendações personalizadas com base nos fatores de alívio e agravamento mais frequentes.
 
-* **Notificações e Alertas:**
-* Lembretes semanais personalizáveis para garantir a continuidade dos registos.
+### Notificações e Alertas
 
+* Lembretes semanais personalizáveis para incentivar a continuidade dos registos.
 
-* **Interoperabilidade:**
-* Exportação de dados clínicos (paciente, dor, medicação) para formato **FHIR** através do **Mirth Connect**.
+### Interoperabilidade
 
+* Exportação de dados clínicos (paciente, dor e medicação) em formato FHIR.
+* Integração com o Mirth Connect como intermediário de interoperabilidade.
 
+---
 
-## Arquitetura
+## Arquitetura da Aplicação
 
 A aplicação segue uma arquitetura de três camadas:
 
-* **Frontend:**
-* [React.js](https://reactjs.org/)
-* `protected-aidaforms` (Renderização de templates OpenEHR)
-* `react-calendar` & `recharts` (Visualização de dados)
+### Frontend
 
+* React.js
+* protected-aidaforms (renderização de templates OpenEHR)
+* react-calendar e recharts (visualização de dados)
 
-* **Backend:**
-* [Node.js](https://nodejs.org/) & [Express](https://expressjs.com/)
+### Backend
+
+* Node.js e Express
 * API RESTful
 
+### Base de Dados
 
-* **Base de Dados:**
-* [PostgreSQL](https://www.postgresql.org/)
+* PostgreSQL
 
+### Integração
 
-* **Integração:**
 * Axios para comunicação HTTP
-* Mirth Connect (Intermediário FHIR)
+* Mirth Connect para conversão e envio de recursos FHIR
 
-
+---
 
 ## Modelação Clínica (OpenEHR)
 
-A estrutura dos dados foi desenhada utilizando o **Archetype Designer**, garantindo consistência semântica. Foram utilizados/adaptados vários arquétipos:
+A estrutura dos dados foi concebida com recurso ao Archetype Designer, garantindo consistência semântica e conformidade com standards clínicos internacionais.
+Foram utilizados e adaptados os seguintes arquétipos:
 
-1. **Pessoa:** `openEHR-EHR-CLUSTER.person_name`, `address`, `telecom_details`.
-2. **Dor (Self Reported Data):**
-* `openEHR-EHR-CLUSTER.symptom_sign` (Sintomas, Localização, Ocorrência).
-* `openEHR-EHR-OBSERVATION.abbey_pain_scale` (Escala de dor).
-* `openEHR-EHR-OBSERVATION.phq_9` (Saúde mental - adaptado).
-* `openEHR-EHR-CLUSTER.media_file` (Evidências multimédia).
+### Pessoa
 
+* openEHR-EHR-CLUSTER.person_name
+* address
+* telecom_details
 
-3. **Medicação:**
-* `openEHR-EHR-COMPOSITION.medication_list`.
-* `openEHR-EHR-OBSERVATION.medication_use_statement`.
+### Dor (Self-Reported Data)
 
+* openEHR-EHR-CLUSTER.symptom_sign (sintomas, localização e ocorrência)
+* openEHR-EHR-OBSERVATION.abbey_pain_scale (escala de dor)
+* openEHR-EHR-OBSERVATION.phq_9 (saúde mental, adaptado)
+* openEHR-EHR-CLUSTER.media_file (evidências multimédia)
 
+### Medicação
+
+* openEHR-EHR-COMPOSITION.medication_list
+* openEHR-EHR-OBSERVATION.medication_use_statement
+
+---
 
 ## Interoperabilidade FHIR
 
-O sistema converte os dados relacionais para recursos FHIR JSON, organizados em **Bundles**:
+Os dados armazenados na base relacional são convertidos para recursos FHIR em formato JSON, organizados em Bundles:
 
-* **Bundle Pessoal:** Recursos `Patient`, `Address`, `Contact`.
-* **Bundle Dor:** Recursos `Condition`, `Observation` (Sintomas, PHQ-9), `DocumentReference`.
-* **Recurso Medicação:** `MedicationStatement`.
+* Bundle Pessoal: Patient, Address, Contact
+* Bundle Dor: Condition, Observation (sintomas, PHQ-9), DocumentReference
+* Medicação: MedicationStatement
 
-## Como Executar
+---
+
+## Como Executar o Projeto
 
 ### Pré-requisitos
 
-* Node.js (v14+)
+* Node.js (v14 ou superior)
 * PostgreSQL
-* Mirth Connect (Opcional, para testar exportação FHIR)
+* Mirth Connect (opcional, para testes de exportação FHIR)
 
 ### Instalação
 
-1. **Clonar o repositório:**
+1. Clonar o repositório
+
 ```bash
 git clone https://github.com/exemplo/pain-monitor-app.git
 cd pain-monitor-app
-
 ```
 
+2. Configurar a Base de Dados
 
-2. **Configurar a Base de Dados:**
-* Crie uma base de dados no PostgreSQL.
-* Execute os scripts SQL disponíveis na pasta `/database` para criar as tabelas (`personal_info`, `composition`, `body_sites`, etc.).
+* Criar uma base de dados PostgreSQL.
+* Executar os scripts SQL disponíveis na pasta `/database` para criação das tabelas (personal_info, composition, body_sites, entre outras).
 
+3. Backend
 
-3. **Backend:**
 ```bash
 cd backend
 npm install
-# Configurar variáveis de ambiente (.env) com credenciais da BD e porta
+# Configurar o ficheiro .env com as credenciais da base de dados e a porta
 npm start
-
 ```
 
+4. Frontend
 
-4. **Frontend:**
 ```bash
 cd frontend
 npm install
 npm start
-
 ```
 
-A aplicação deverá estar acessível em `http://localhost:3000`.
+A aplicação ficará disponível em `http://localhost:3000`.
