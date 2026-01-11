@@ -62,6 +62,6 @@ O modelo **Gemma** destacou-se como a melhor opção para este domínio. Contudo
 
 ## Trabalho Futuro
 
-* Implementação de **RAG (Retrieval-Augmented Generation)** para ligar o modelo a guidelines clínicas oficiais e atualizadas.
+* Implementação de **RAG (Retrieval-Augmented Generation)** para ligar o modelo a _guidelines_ clínicas oficiais e atualizadas.
 * Validação clínica rigorosa das respostas.
 * Integração em plataformas móveis.
