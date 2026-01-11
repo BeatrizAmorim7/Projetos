@@ -67,8 +67,7 @@ A solução distingue-se pela aposta na interoperabilidade semântica, recorrend
 
 ## Modelação clínica (OpenEHR)
 
-A estrutura dos dados foi concebida com recurso ao *Archetype Designer*, garantindo consistência semântica e conformidade com standards clínicos internacionais.
-Foram utilizados e adaptados vários arquétipos.
+A estrutura dos dados foi criada com recurso ao *Archetype Designer*, de modo a garantir consistência semântica e conformidade com _standards_ clínicos internacionais. Foram utilizados e adaptados vários arquétipos.
 
 ## Interoperabilidade FHIR
 
