@@ -8,7 +8,7 @@
 
 # Sobre o projeto
 
-Este projeto consiste numa aplicação _web/mobile_ desenvolvida com o objetivo de permitir o registo estruturado, a monitorização contínua e o acompanhamento clínico de episódios de dor aguda e crónica dos utilizadores. A solução distingue-se pela aposta na interoperabilidade semântica, que é conseguida através da modelação clínica _OpenEHR_ e das normas FHIR, promovendo a partilha segura e normalizada dos dados de saúde.
+Este projeto consiste numa aplicação _web/mobile_ desenvolvida com o objetivo de permitir o registo estruturado, a monitorização contínua e o acompanhamento clínico de episódios de dor aguda e crónica dos utilizadores. A solução distingue-se pela aposta na interoperabilidade semântica, que é conseguida através da modelação clínica _OpenEHR_ e das normas FHIR.
 
 
 ## Funcionalidades principais
