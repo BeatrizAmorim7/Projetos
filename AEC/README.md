@@ -19,7 +19,7 @@ O objetivo principal é auxiliar a decisão clínica, minimizando falsos negativ
 
 ## Estrutura do Repositório
 
-* **`TP_AEC.pdf`**: Relatório científico completo com a análise exploratória, discussão clínica dos atributos e comparação detalhada de resultados.
+* **`relatorio_AEC.pdf`**: Relatório científico completo com a análise exploratória, discussão clínica dos atributos e comparação detalhada de resultados.
 * **`trabalho.ipynb`**: _Notebook_ com a implementação da _pipeline_ em Python.
 * **`ckd_uci.csv`**: _Dataset_ 
 
