@@ -1,0 +1,12 @@
+@keyframes moveSideways {
+  0%, 100% {
+    transform: translateX();
+  }
+  50% {
+    transform: translateX(4px); /* muda o valor para ajustar o quanto mexe */
+  }
+}
+
+.icon-animated {
+  animation: moveSideways 2s ease-in-out infinite;
+}

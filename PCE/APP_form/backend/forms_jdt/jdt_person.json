@@ -1,0 +1,746 @@
+{
+	"jdt": {
+		"Functions": [],
+		"InternalFunctions": [],
+		"Refset": [],
+		"TaskEditable": [
+			"All"
+		],
+		"TaskInReport": [
+			"All"
+		],
+		"TaskVisible": [
+			"All"
+		],
+		"archetypeId": "openEHR-EHR-COMPOSITION.self_reported_data.v1",
+		"category": {
+			"code": 433,
+			"text": "event"
+		},
+		"itemName": "person",
+		"itemPath": "",
+		"items": [
+			[
+				{
+					"Functions": [],
+					"InternalFunctions": [],
+					"Refset": [],
+					"TaskEditable": [
+						"All"
+					],
+					"TaskInReport": [
+						"All"
+					],
+					"TaskVisible": [
+						"All"
+					],
+					"archetype_id": "openEHR-EHR-CLUSTER.person.v1",
+					"cardinality": {
+						"interval": {
+							"lowerOccurrences": 1,
+							"upperOccurrences": "*"
+						},
+						"ordered": false,
+						"unique": false
+					},
+					"data_type": "Title",
+					"itemName": "Person",
+					"itemPath": "items.0.0",
+					"items": [
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_TEXT",
+							"itemName": "Name",
+							"itemPath": "items.0.0.items.0",
+							"node": {
+								"code": "at0001",
+								"description": "The unstructured name for the individual.",
+								"text": "Name"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.person.v1]/[at0001]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_TEXT",
+							"itemName": "Identifier",
+							"itemPath": "items.0.0.items.1",
+							"node": {
+								"code": "at0003",
+								"description": "Identifier associated with the individual.",
+								"text": "Identifier"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": "*"
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.person.v1]/[at0003]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"archetype_id": "openEHR-EHR-CLUSTER.address.v1",
+							"cardinality": {
+								"interval": {
+									"lowerOccurrences": 1,
+									"upperOccurrences": "*"
+								},
+								"ordered": false,
+								"unique": false
+							},
+							"data_type": "Title",
+							"itemName": "Address",
+							"itemPath": "items.0.0.items.2",
+							"items": [
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_TEXT",
+									"itemName": "Address line",
+									"itemPath": "items.0.0.items.2.items.0",
+									"node": {
+										"code": "at0001",
+										"description": "An unstructured address line representing all relevant street-level or post-box details that would support the identification of a location.",
+										"text": "Address line"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": "*"
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.person.v1]/[openEHR-EHR-CLUSTER.address.v1]/[at0001]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"value": null
+								},
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_TEXT",
+									"itemName": "City/Town",
+									"itemPath": "items.0.0.items.2.items.1",
+									"node": {
+										"code": "at0002",
+										"description": "The name of the lowest level locality that contains the address.",
+										"text": "City/Town"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": "*"
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.person.v1]/[openEHR-EHR-CLUSTER.address.v1]/[at0002]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"value": null
+								},
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_TEXT",
+									"itemName": "District/County",
+									"itemPath": "items.0.0.items.2.items.2",
+									"node": {
+										"code": "at0003",
+										"description": "The name of a local government district or geographical area that contains the address.",
+										"text": "District/County"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": "*"
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.person.v1]/[openEHR-EHR-CLUSTER.address.v1]/[at0003]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"value": null
+								},
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_TEXT",
+									"itemName": "Postal code",
+									"itemPath": "items.0.0.items.2.items.3",
+									"node": {
+										"code": "at0005",
+										"description": "The code for a postal delivery area containing the address, as defined by the relevant postal delivery service.",
+										"text": "Postal code"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.person.v1]/[openEHR-EHR-CLUSTER.address.v1]/[at0005]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"value": null
+								},
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_TEXT",
+									"itemName": "Country",
+									"itemPath": "items.0.0.items.2.items.4",
+									"node": {
+										"code": "at0006",
+										"description": "The name of the country containing the address.",
+										"text": "Country"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.person.v1]/[openEHR-EHR-CLUSTER.address.v1]/[at0006]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"value": null
+								}
+							],
+							"node": {
+								"code": "at0000",
+								"description": "Details about the location of a person, physical building or landmark.",
+								"text": "Address"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.person.v1]/[openEHR-EHR-CLUSTER.address.v1]",
+							"ruleMandatory": [],
+							"ruleVisibility": []
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"archetype_id": "openEHR-EHR-CLUSTER.electronic_communication.v1",
+							"cardinality": {
+								"interval": {
+									"lowerOccurrences": 1,
+									"upperOccurrences": "*"
+								},
+								"ordered": false,
+								"unique": false
+							},
+							"data_type": "Title",
+							"itemName": "Electronic communication",
+							"itemPath": "items.0.0.items.3",
+							"items": [
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_CODED_TEXT",
+									"itemName": "Type",
+									"itemPath": "items.0.0.items.3.items.0",
+									"itemsList": [
+										{
+											"code": "at0005",
+											"description": "For SMS or voice calls.",
+											"text": "Mobile (cellular) telephone"
+										},
+										{
+											"code": "at0006",
+											"text": "Telephone (excluding mobile telephone)"
+										},
+										{
+											"code": "at0007",
+											"text": "Email"
+										},
+										{
+											"code": "at0008",
+											"text": "Pager"
+										},
+										{
+											"code": "at0009",
+											"text": "Fax"
+										}
+									],
+									"node": {
+										"code": "at0001",
+										"description": "The type or form of electronic communication.",
+										"text": "Type"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.person.v1]/[openEHR-EHR-CLUSTER.electronic_communication.v1]/[at0001]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"terminology": "local",
+									"terminology_id": "local",
+									"value": null
+								},
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_TEXT",
+									"itemName": "Value",
+									"itemPath": "items.0.0.items.3.items.1",
+									"node": {
+										"code": "at0002",
+										"description": "The unique combination of alphanumeric characters, relevant for representation of Type'.",
+										"text": "Value"
+									},
+									"occurrences": {
+										"lowerOccurrences": 1,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.person.v1]/[openEHR-EHR-CLUSTER.electronic_communication.v1]/[at0002]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"value": null
+								}
+							],
+							"node": {
+								"code": "at0000",
+								"description": "Details about a specified type of electronic communication.",
+								"text": "Electronic communication"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.person.v1]/[openEHR-EHR-CLUSTER.electronic_communication.v1]",
+							"ruleMandatory": [],
+							"ruleVisibility": []
+						}
+					],
+					"node": {
+						"code": "at0000",
+						"description": "An individual human being.",
+						"text": "Person"
+					},
+					"occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.person.v1]",
+					"ruleMandatory": [],
+					"ruleVisibility": []
+				},
+				{
+					"Functions": [],
+					"InternalFunctions": [],
+					"Refset": [],
+					"TaskEditable": [
+						"All"
+					],
+					"TaskInReport": [
+						"All"
+					],
+					"TaskVisible": [
+						"All"
+					],
+					"archetype_id": "openEHR-EHR-EVALUATION.gender.v1",
+					"data_type": "Title",
+					"itemName": "Gender",
+					"itemPath": "items.0.1",
+					"items": [
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_CODED_TEXT",
+							"itemName": "Gender identity",
+							"itemPath": "items.0.1.items.0",
+							"itemsList": [
+								{
+									"code": "local_terms::F",
+									"text": "Female"
+								},
+								{
+									"code": "local_terms::M",
+									"text": "Male"
+								},
+								{
+									"code": "local_terms::O",
+									"text": "Other"
+								}
+							],
+							"node": {
+								"code": "at0001",
+								"description": "The individual's perception of their own gender.",
+								"text": "Gender identity"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-EVALUATION.gender.v1]/[at0001]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"terminology": "local_terms",
+							"terminology_id": "local_terms",
+							"value": null
+						}
+					],
+					"node": {
+						"code": "at0000",
+						"description": "Details about the gender of an individual.",
+						"text": "Gender"
+					},
+					"occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-EVALUATION.gender.v1]",
+					"ruleMandatory": [],
+					"ruleVisibility": [],
+					"xsi_type": "C_ARCHETYPE_ROOT"
+				},
+				{
+					"Functions": [],
+					"InternalFunctions": [],
+					"Refset": [],
+					"TaskEditable": [
+						"All"
+					],
+					"TaskInReport": [
+						"All"
+					],
+					"TaskVisible": [
+						"All"
+					],
+					"archetype_id": "openEHR-EHR-EVALUATION.problem_diagnosis.v1",
+					"data_type": "Title",
+					"itemName": "Problem/Diagnosis",
+					"itemPath": "items.0.2",
+					"items": [
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_TEXT",
+							"itemName": "Problem/Diagnosis name",
+							"itemPath": "items.0.2.items.0",
+							"node": {
+								"code": "at0002",
+								"description": "Identification of the problem or diagnosis, by name.",
+								"text": "Problem/Diagnosis name"
+							},
+							"occurrences": {
+								"lowerOccurrences": 1,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-EVALUATION.problem_diagnosis.v1]/[at0002]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_DATE_TIME",
+							"itemName": "Date/time of onset",
+							"itemPath": "items.0.2.items.1",
+							"node": {
+								"code": "at0077",
+								"description": "Estimated or actual date/time that signs or symptoms of the problem/diagnosis were first observed.",
+								"text": "Date/time of onset"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-EVALUATION.problem_diagnosis.v1]/[at0077]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": {
+								"date": null,
+								"time": null
+							}
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_CODED_TEXT",
+							"itemName": "Severity",
+							"itemPath": "items.0.2.items.2",
+							"itemsList": [
+								{
+									"code": "at0047",
+									"description": "The problem or diagnosis does not interfere with normal activity or may cause damage to health if left untreated.",
+									"text": "Mild"
+								},
+								{
+									"code": "at0048",
+									"description": "The problem or diagnosis causes interference with normal activity or will damage health if left untreated.",
+									"text": "Moderate"
+								},
+								{
+									"code": "at0049",
+									"description": "The problem or diagnosis prevents normal activity or will seriously damage health if left untreated.",
+									"text": "Severe"
+								}
+							],
+							"node": {
+								"code": "at0005",
+								"description": "An assessment of the overall severity of the problem or diagnosis.",
+								"text": "Severity"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-EVALUATION.problem_diagnosis.v1]/[at0005]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"terminology": "local",
+							"terminology_id": "local",
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_TEXT",
+							"itemName": "Severity",
+							"itemPath": "items.0.2.items.3",
+							"node": {
+								"code": "at0005",
+								"description": "An assessment of the overall severity of the problem or diagnosis.",
+								"text": "Severity"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-EVALUATION.problem_diagnosis.v1]/[at0005]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_DATE_TIME",
+							"itemName": "Date/time of resolution",
+							"itemPath": "items.0.2.items.4",
+							"node": {
+								"code": "at0030",
+								"description": "Estimated or actual date/time of resolution or remission for this problem or diagnosis, as determined by a healthcare professional.",
+								"text": "Date/time of resolution"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-EVALUATION.problem_diagnosis.v1]/[at0030]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": {
+								"date": null,
+								"time": null
+							}
+						}
+					],
+					"node": {
+						"code": "at0000",
+						"description": "Details about a single identified health condition, injury, disability or any other issue which impacts on the physical, mental and/or social well-being of an individual.",
+						"text": "Problem/Diagnosis"
+					},
+					"occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-EVALUATION.problem_diagnosis.v1]",
+					"ruleMandatory": [],
+					"ruleVisibility": [],
+					"xsi_type": "C_ARCHETYPE_ROOT"
+				}
+			]
+		],
+		"node": {
+			"code": "at0000",
+			"description": "Generic container for information provided by an individual.",
+			"text": "person"
+		},
+		"occurrences": {
+			"lowerOccurrences": 1,
+			"upperOccurrences": 1
+		},
+		"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]",
+		"rm_type_name": "COMPOSITION",
+		"ruleMandatory": [],
+		"ruleVisibility": [],
+		"templateId": "85cc17b9-009f-4967-b92e-d9d9c8627ae0",
+		"templateName": "person",
+		"terminology": "",
+		"themeColor": "default"
+	}
+}

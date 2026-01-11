@@ -1,0 +1,309 @@
+{
+	"success": true,
+	"err": null,
+	"form": {
+		"id": 1374,
+		"idJDT": 1741065,
+		"idInitialComposition": 3345,
+		"comp_rm": null,
+		"version": 1,
+		"createdDate": "2025-04-30T12:34:04Z",
+		"formName": "GR03-PCE2425-newdosage",
+		"formUI": {
+			"datatypes": {},
+			"fileExtensions": {},
+			"fileMaxSize": {},
+			"fontAlignment": {
+				"fieldTitle": "justify-left",
+				"formTitle": "justify-center",
+				"sectionTitle": "justify-left"
+			},
+			"fontLetters": {
+				"button": "normal-case",
+				"fieldTitle": "normal-case",
+				"formTitle": "normal-case",
+				"sectionTitle": "normal-case"
+			},
+			"fontSize": {
+				"button": "12px",
+				"field": "11px",
+				"fieldTitle": "11px",
+				"formTitle": "16px",
+				"header": "10px",
+				"sectionTitle": "12px"
+			},
+			"fontStyle": {
+				"button": [],
+				"fieldTitle": [
+					"font-bold"
+				],
+				"formTitle": [],
+				"header": [],
+				"sectionTitle": []
+			},
+			"formOrder": {
+				"items.0.0": 1,
+				"items.0.0.items.0": 2,
+				"items.0.0.items.1": 3
+			},
+			"formTitle": "dosage",
+			"hsizes": {},
+			"limitCharacters": {},
+			"sectionArchetype": {},
+			"showSectionTitle": {},
+			"textHeight": {
+				"items-0-0-items-0-value": 81
+			},
+			"themeColor": "indigo",
+			"themePalette": {
+				"$100": "#e6e7fa",
+				"$200": "#a2b5f5",
+				"$300": "#7f9cf5",
+				"$400": "#7a94e2",
+				"$500": "#4c73dc",
+				"$600": "#3a58a7"
+			}
+		},
+		"form_rm": [],
+		"owner": "hpeixoto",
+		"idState": null,
+		"motivo": null,
+		"updatedDate": null
+	},
+	"jdt": {
+		"Functions": [],
+		"InternalFunctions": [],
+		"Refset": [],
+		"TaskEditable": [
+			"All"
+		],
+		"TaskInReport": [
+			"All"
+		],
+		"TaskVisible": [
+			"All"
+		],
+		"archetypeId": "openEHR-EHR-COMPOSITION.medication_list.v1",
+		"category": {
+			"code": 433,
+			"text": "event"
+		},
+		"itemName": "New_dosage",
+		"itemPath": "",
+		"items": [
+			[
+				{
+					"Functions": [],
+					"InternalFunctions": [],
+					"Refset": [],
+					"TaskEditable": [
+						"All"
+					],
+					"TaskInReport": [
+						"All"
+					],
+					"TaskVisible": [
+						"All"
+					],
+					"archetype_id": "openEHR-EHR-OBSERVATION.medication_statement.v0",
+					"data_type": "Title",
+					"itemName": "Medication use statement",
+					"itemPath": "items.0.0",
+					"items": [
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_TEXT",
+							"itemName": "Medication name",
+							"itemPath": "items.0.0.items.0",
+							"node": {
+								"code": "at0006",
+								"description": "Name of the medication.",
+								"text": "Medication name"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.medication_list.v1]/[openEHR-EHR-OBSERVATION.medication_statement.v0]/[at0006]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"archetype_id": "openEHR-EHR-CLUSTER.dosage.v2",
+							"cardinality": {
+								"interval": {
+									"lowerOccurrences": 1,
+									"upperOccurrences": "*"
+								},
+								"ordered": false,
+								"unique": false
+							},
+							"data_type": "Title",
+							"itemName": "Dosage",
+							"itemPath": "items.0.0.items.1",
+							"items": [
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_QUANTITY",
+									"itemName": "Dose",
+									"itemPath": "items.0.0.items.1.items.0",
+									"node": {
+										"code": "at0144",
+										"description": "The amount of medication administered at one time.",
+										"text": "Dose"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.medication_list.v1]/[openEHR-EHR-OBSERVATION.medication_statement.v0]/[openEHR-EHR-CLUSTER.dosage.v2]/[at0144]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"units": {
+										"range": {},
+										"unit": "mg"
+									},
+									"value": {
+										"unit": null,
+										"value": null
+									}
+								},
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_DURATION",
+									"itemName": "Administration duration",
+									"itemPath": "items.0.0.items.1.items.1",
+									"node": {
+										"code": "at0102",
+										"description": "The period of time over which a single dose of the medication or vaccine should be administered.",
+										"text": "Administration duration"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.medication_list.v1]/[openEHR-EHR-OBSERVATION.medication_statement.v0]/[openEHR-EHR-CLUSTER.dosage.v2]/[at0102]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"units": [
+										"Ano(s)",
+										"Mes(es)",
+										"Semana(s)",
+										"Dia(s)",
+										"Hora(s)",
+										"Minuto(s)",
+										"Segundo(s)"
+									],
+									"value": {
+										"unit": null,
+										"value": null
+									}
+								}
+							],
+							"node": {
+								"code": "at0000",
+								"description": "The combination of a medication amount and administration timing for a single day, in the context of a medication order or medication management.",
+								"text": "Dosage"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.medication_list.v1]/[openEHR-EHR-OBSERVATION.medication_statement.v0]/[openEHR-EHR-CLUSTER.dosage.v2]",
+							"ruleMandatory": [],
+							"ruleVisibility": []
+						}
+					],
+					"node": {
+						"code": "at0000",
+						"description": "An assertion about the current use of a single medication by an individual.",
+						"text": "Medication use statement"
+					},
+					"occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"path": "[openEHR-EHR-COMPOSITION.medication_list.v1]/[openEHR-EHR-OBSERVATION.medication_statement.v0]",
+					"ruleMandatory": [],
+					"ruleVisibility": [],
+					"xsi_type": "C_ARCHETYPE_ROOT"
+				}
+			]
+		],
+		"node": {
+			"code": "at0000",
+			"description": "A persistent and versioned list of medicines for an individual.",
+			"text": "New_dosage"
+		},
+		"occurrences": {
+			"lowerOccurrences": 1,
+			"upperOccurrences": 1
+		},
+		"path": "[openEHR-EHR-COMPOSITION.medication_list.v1]",
+		"rm_type_name": "COMPOSITION",
+		"ruleMandatory": [],
+		"ruleVisibility": [],
+		"templateId": "b8604956-c4bd-48c5-b6c0-9de9d9939811",
+		"templateName": "New_dosage",
+		"terminology": "",
+		"themeColor": "default"
+	},
+	"rm_jdt": {
+		"": {
+			"path": "openEHR-EHR-COMPOSITION.medication_list.v1",
+			"rm_type": "COMPOSITION"
+		},
+		"items.0.0": {
+			"path": "[openEHR-EHR-COMPOSITION.medication_list.v1]/[openEHR-EHR-OBSERVATION.medication_statement.v0]",
+			"rm_type": "OBSERVATION"
+		}
+	},
+	"idJDT": "1741065",
+	"dlm_json": null
+}

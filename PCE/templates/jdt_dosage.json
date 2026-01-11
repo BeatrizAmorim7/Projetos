@@ -1,0 +1,161 @@
+ {
+		"Functions": [],
+		"InternalFunctions": [],
+		"Refset": [],
+		"TaskEditable": [
+			"All"
+		],
+		"TaskInReport": [
+			"All"
+		],
+		"TaskVisible": [
+			"All"
+		],
+		"archetypeId": "openEHR-EHR-COMPOSITION.medication_list.v1",
+		"category": {
+			"code": 433,
+			"text": "event"
+		},
+		"itemName": "dosage",
+		"itemPath": "",
+		"items": [
+			[
+				{
+					"Functions": [],
+					"InternalFunctions": [],
+					"Refset": [],
+					"TaskEditable": [
+						"All"
+					],
+					"TaskInReport": [
+						"All"
+					],
+					"TaskVisible": [
+						"All"
+					],
+					"archetype_id": "openEHR-EHR-CLUSTER.dosage.v2",
+					"cardinality": {
+						"interval": {
+							"lowerOccurrences": 1,
+							"upperOccurrences": "*"
+						},
+						"ordered": false,
+						"unique": false
+					},
+					"data_type": "Title",
+					"itemName": "Dosage",
+					"itemPath": "items.0.0",
+					"items": [
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_QUANTITY",
+							"itemName": "Dose",
+							"itemPath": "items.0.0.items.0",
+							"node": {
+								"code": "at0144",
+								"description": "The amount of medication administered at one time.",
+								"text": "Dose"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.medication_list.v1]/[openEHR-EHR-CLUSTER.dosage.v2]/[at0144]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"units": {
+								"range": {},
+								"unit": "mg"
+							},
+							"value": {
+								"unit": null,
+								"value": null
+							}
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_DURATION",
+							"itemName": "Administration duration",
+							"itemPath": "items.0.0.items.1",
+							"node": {
+								"code": "at0102",
+								"description": "The period of time over which a single dose of the medication or vaccine should be administered.",
+								"text": "Administration duration"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.medication_list.v1]/[openEHR-EHR-CLUSTER.dosage.v2]/[at0102]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"units": [
+								"Ano(s)",
+								"Mes(es)",
+								"Semana(s)",
+								"Dia(s)",
+								"Hora(s)",
+								"Minuto(s)",
+								"Segundo(s)"
+							],
+							"value": {
+								"unit": null,
+								"value": null
+							}
+						}
+					],
+					"node": {
+						"code": "at0000",
+						"description": "The combination of a medication amount and administration timing for a single day, in the context of a medication order or medication management.",
+						"text": "Dosage"
+					},
+					"occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"path": "[openEHR-EHR-COMPOSITION.medication_list.v1]/[openEHR-EHR-CLUSTER.dosage.v2]",
+					"ruleMandatory": [],
+					"ruleVisibility": []
+				}
+			]
+		],
+		"node": {
+			"code": "at0000",
+			"description": "A persistent and versioned list of medicines for an individual.",
+			"text": "dosage"
+		},
+		"occurrences": {
+			"lowerOccurrences": 1,
+			"upperOccurrences": 1
+		},
+		"path": "[openEHR-EHR-COMPOSITION.medication_list.v1]",
+		"rm_type_name": "COMPOSITION",
+		"ruleMandatory": [],
+		"ruleVisibility": [],
+		"templateId": "1fa47134-b26d-45ef-b007-69a610a1b0f1",
+		"templateName": "dosage",
+		"terminology": "",
+		"themeColor": "default"
+	}

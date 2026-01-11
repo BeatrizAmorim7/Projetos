@@ -1,0 +1,55 @@
+{
+    "datatypes": {},
+    "fileExtensions": {},
+    "fileMaxSize": {},
+    "fontAlignment": {
+        "fieldTitle": "justify-left",
+        "formTitle": "justify-center",
+        "sectionTitle": "justify-left"
+    },
+    "fontLetters": {
+        "button": "normal-case",
+        "fieldTitle": "normal-case",
+        "formTitle": "normal-case",
+        "sectionTitle": "normal-case"
+    },
+    "fontSize": {
+        "button": "12px",
+        "field": "11px",
+        "fieldTitle": "11px",
+        "formTitle": "16px",
+        "header": "10px",
+        "sectionTitle": "12px"
+    },
+    "fontStyle": {
+        "button": [],
+        "fieldTitle": [
+            "font-bold"
+        ],
+        "formTitle": [],
+        "header": [],
+        "sectionTitle": []
+    },
+    "formOrder": {
+        "items.0.0": 1,
+        "items.0.0.items.0": 2,
+        "items.0.0.items.1": 3
+    },
+    "formTitle": "dosage",
+    "hsizes": {},
+    "limitCharacters": {},
+    "sectionArchetype": {},
+    "showSectionTitle": {},
+    "textHeight": {
+        "items-0-0-items-0-value": 81
+    },
+    "themeColor": "indigo",
+    "themePalette": {
+        "$100": "#e6e7fa",
+        "$200": "#a2b5f5",
+        "$300": "#7f9cf5",
+        "$400": "#7a94e2",
+        "$500": "#4c73dc",
+        "$600": "#3a58a7"
+    }
+}

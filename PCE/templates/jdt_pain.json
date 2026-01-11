@@ -1,0 +1,1693 @@
+ {
+		"Functions": [],
+		"InternalFunctions": [],
+		"Occurrences": {
+			"lowerOccurrences": 1,
+			"upperOccurrences": 1
+		},
+		"Refset": [],
+		"TaskEditable": [
+			"All"
+		],
+		"TaskInReport": [
+			"All"
+		],
+		"TaskVisible": [
+			"All"
+		],
+		"archetypeId": "openEHR-EHR-COMPOSITION.self_reported_data.v1",
+		"category": {
+			"code": 433,
+			"text": "event"
+		},
+		"itemName": 2,
+		"itemPath": "",
+		"items": [
+			[
+				{
+					"Functions": [],
+					"InternalFunctions": [],
+					"Occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"Refset": [],
+					"TaskEditable": [
+						"All"
+					],
+					"TaskInReport": [
+						"All"
+					],
+					"TaskVisible": [
+						"All"
+					],
+					"archetype_id": "openEHR-EHR-CLUSTER.exam.v1",
+					"cardinality": {
+						"interval": {
+							"lowerOccurrences": 1,
+							"upperOccurrences": "*"
+						},
+						"ordered": false,
+						"unique": false
+					},
+					"data_type": "Title",
+					"itemName": "Examination findings",
+					"itemPath": "items.0.0",
+					"items": [
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 1,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_TEXT",
+							"itemName": "System or structure examined",
+							"itemPath": "items.0.0.items.0",
+							"node": {
+								"code": "at0001",
+								"description": "Identification of the examined body system or anatomical structure.",
+								"text": "System or structure examined"
+							},
+							"occurrences": {
+								"lowerOccurrences": 1,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.exam.v1]/[at0001]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_TEXT",
+							"itemName": "Body site",
+							"itemPath": "items.0.0.items.1",
+							"node": {
+								"code": "at0012",
+								"description": "Identification of the area of the body under examination.",
+								"text": "Body site"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.exam.v1]/[at0012]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"archetype_id": "openEHR-EHR-CLUSTER.media_file.v1",
+							"cardinality": {
+								"interval": {
+									"lowerOccurrences": 1,
+									"upperOccurrences": "*"
+								},
+								"ordered": false,
+								"unique": false
+							},
+							"data_type": "Title",
+							"itemName": "Media file",
+							"itemPath": "items.0.0.items.2",
+							"items": [
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_MULTIMEDIA",
+									"itemName": "Content",
+									"itemPath": "items.0.0.items.2.items.0",
+									"itemsList": "all",
+									"node": {
+										"code": "at0001",
+										"description": "Digital representation of the media file.",
+										"text": "Content"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.exam.v1]/[openEHR-EHR-CLUSTER.media_file.v1]/[at0001]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"value": null
+								},
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_TEXT",
+									"itemName": "Content name",
+									"itemPath": "items.0.0.items.2.items.1",
+									"node": {
+										"code": "at0002",
+										"description": "Descriptive name or title for the media file.",
+										"text": "Content name"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.exam.v1]/[openEHR-EHR-CLUSTER.media_file.v1]/[at0002]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"value": null
+								},
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_TEXT",
+									"itemName": "Description",
+									"itemPath": "items.0.0.items.2.items.2",
+									"node": {
+										"code": "at0005",
+										"description": "Narrative description about the media file.",
+										"text": "Description"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.exam.v1]/[openEHR-EHR-CLUSTER.media_file.v1]/[at0005]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"value": null
+								}
+							],
+							"node": {
+								"code": "at0000",
+								"description": "A media file that is acquired or used as part of the healthcare process, and associated metadata.",
+								"text": "Media file"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.exam.v1]/[openEHR-EHR-CLUSTER.media_file.v1]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"xsi_type": "C_ARCHETYPE_ROOT"
+						}
+					],
+					"node": {
+						"code": "at0000",
+						"description": "Findings observed during the physical examination of a body system or anatomical structure.",
+						"text": "Examination findings"
+					},
+					"occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.exam.v1]",
+					"ruleMandatory": [],
+					"ruleVisibility": [],
+					"xsi_type": "C_ARCHETYPE_ROOT"
+				},
+				{
+					"Functions": [],
+					"InternalFunctions": [],
+					"Occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"Refset": [],
+					"TaskEditable": [
+						"All"
+					],
+					"TaskInReport": [
+						"All"
+					],
+					"TaskVisible": [
+						"All"
+					],
+					"archetype_id": "openEHR-EHR-CLUSTER.symptom_sign.v2",
+					"cardinality": {
+						"interval": {
+							"lowerOccurrences": 1,
+							"upperOccurrences": "*"
+						},
+						"ordered": false,
+						"unique": false
+					},
+					"data_type": "Title",
+					"itemName": "Symptom/Sign",
+					"itemPath": "items.0.1",
+					"items": [
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 1,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_TEXT",
+							"itemName": "Symptom/Sign name",
+							"itemPath": "items.0.1.items.0",
+							"node": {
+								"code": "at0001",
+								"description": "The name of the reported symptom or sign.",
+								"text": "Symptom/Sign name"
+							},
+							"occurrences": {
+								"lowerOccurrences": 1,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[at0001]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_DURATION",
+							"itemName": "Episode duration",
+							"itemPath": "items.0.1.items.1",
+							"node": {
+								"code": "at0028",
+								"description": "The duration of this episode of the symptom or sign since initial onset.",
+								"text": "Episode duration"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[at0028]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"units": [
+								{
+									"range": {
+										"lowerIncluded": "true",
+										"upperIncluded": "false"
+									},
+									"unit": "Dia(s)"
+								},
+								{
+									"range": {
+										"lowerIncluded": "true",
+										"upperIncluded": "false"
+									},
+									"unit": "Hora(s)"
+								}
+							],
+							"value": [
+								{
+									"unit": "Dia(s)",
+									"value": null
+								},
+								{
+									"unit": "Hora(s)",
+									"value": null
+								}
+							]
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": "*"
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"cardinality": {
+								"interval": {
+									"lowerOccurrences": 1,
+									"upperOccurrences": "*"
+								},
+								"ordered": false,
+								"unique": false
+							},
+							"data_type": "Title",
+							"itemName": "Precipitating factor",
+							"itemPath": "items.0.1.items.2",
+							"items": [
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_TEXT",
+									"itemName": "Factor",
+									"itemPath": "items.0.1.items.2.items.0",
+									"node": {
+										"code": "at0170",
+										"description": "Name of the health event, symptom, reported sign or other factor.",
+										"text": "Factor"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[at0165]/[at0170]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"value": null
+								},
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_TEXT",
+									"itemName": "Description",
+									"itemPath": "items.0.1.items.2.items.1",
+									"node": {
+										"code": "at0185",
+										"description": "Narrative description about the effect of the factor on the identified symptom or sign.",
+										"text": "Description"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[at0165]/[at0185]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"value": null
+								}
+							],
+							"node": {
+								"code": "at0165",
+								"description": "Details about specified factors that are associated with the precipitation of the symptom or sign.",
+								"text": "Precipitating factor"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": "*"
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[at0165]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"xsi_type": "C_COMPLEX_OBJECT"
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": "*"
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"cardinality": {
+								"interval": {
+									"lowerOccurrences": 1,
+									"upperOccurrences": "*"
+								},
+								"ordered": false,
+								"unique": false
+							},
+							"data_type": "Title",
+							"itemName": "Resolving factor",
+							"itemPath": "items.0.1.items.3",
+							"items": [
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_TEXT",
+									"itemName": "Factor",
+									"itemPath": "items.0.1.items.3.items.0",
+									"node": {
+										"code": "at0193",
+										"description": "Name of the health event, symptom, reported sign or other factor.",
+										"text": "Factor"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[at0190]/[at0193]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"value": null
+								},
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_TEXT",
+									"itemName": "Description",
+									"itemPath": "items.0.1.items.3.items.1",
+									"node": {
+										"code": "at0196",
+										"description": "Narrative description about the effect of the factor on the identified symptom or sign.",
+										"text": "Description"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[at0190]/[at0196]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"value": null
+								}
+							],
+							"node": {
+								"code": "at0190",
+								"description": "Details about specified factors that are associated with the resolution of the symptom or sign.",
+								"text": "Resolving factor"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": "*"
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[at0190]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"xsi_type": "C_COMPLEX_OBJECT"
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_TEXT",
+							"itemName": "Episode description",
+							"itemPath": "items.0.1.items.4",
+							"node": {
+								"code": "at0037",
+								"description": "Narrative description about the course of the symptom or sign during this episode.",
+								"text": "Episode description"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[at0037]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"archetype_id": "openEHR-EHR-CLUSTER.symptom_sign.v2",
+							"cardinality": {
+								"interval": {
+									"lowerOccurrences": 1,
+									"upperOccurrences": "*"
+								},
+								"ordered": false,
+								"unique": false
+							},
+							"data_type": "Title",
+							"itemName": "Symptom/Sign",
+							"itemPath": "items.0.1.items.5",
+							"items": [
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Occurrences": {
+										"lowerOccurrences": 1,
+										"upperOccurrences": 1
+									},
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_TEXT",
+									"itemName": "Symptom/Sign name",
+									"itemPath": "items.0.1.items.5.items.0",
+									"node": {
+										"code": "at0001",
+										"description": "The name of the reported symptom or sign.",
+										"text": "Symptom/Sign name"
+									},
+									"occurrences": {
+										"lowerOccurrences": 1,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[at0001]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"value": null
+								},
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": "*"
+									},
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_TEXT",
+									"itemName": "Body site",
+									"itemPath": "items.0.1.items.5.items.1",
+									"node": {
+										"code": "at0151",
+										"description": "Simple body site where the symptom or sign was reported.",
+										"text": "Body site"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": "*"
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[at0151]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"value": null
+								},
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_TEXT",
+									"itemName": "Description",
+									"itemPath": "items.0.1.items.5.items.2",
+									"node": {
+										"code": "at0002",
+										"description": "Narrative description about the reported symptom or sign.",
+										"text": "Description"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[at0002]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"value": null
+								},
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_CODED_TEXT",
+									"itemName": "Occurrence",
+									"itemPath": "items.0.1.items.5.items.3",
+									"itemsList": [
+										{
+											"code": "at0187",
+											"description": "This is the first ever occurrence of this symptom or sign.",
+											"text": "First occurrence"
+										},
+										{
+											"code": "at0188",
+											"description": "New occurrence of the same symptom or sign after a previous episode was resolved.",
+											"text": "Recurrence"
+										}
+									],
+									"node": {
+										"code": "at0186",
+										"description": "Type of occurrence for this symptom or sign?",
+										"text": "Occurrence"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[at0186]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"terminology": "local",
+									"terminology_id": "local",
+									"value": null
+								},
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_DURATION",
+									"itemName": "Episode duration",
+									"itemPath": "items.0.1.items.5.items.4",
+									"node": {
+										"code": "at0028",
+										"description": "The duration of this episode of the symptom or sign since initial onset.",
+										"text": "Episode duration"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[at0028]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"units": [
+										{
+											"range": {
+												"lowerIncluded": "true",
+												"upperIncluded": "false"
+											},
+											"unit": "Dia(s)"
+										},
+										{
+											"range": {
+												"lower": "0",
+												"lowerIncluded": "true",
+												"upperIncluded": "false"
+											},
+											"unit": "Hora(s)"
+										}
+									],
+									"value": [
+										{
+											"unit": "Dia(s)",
+											"value": null
+										},
+										{
+											"unit": "Hora(s)",
+											"value": null
+										}
+									]
+								},
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_CODED_TEXT",
+									"itemName": "Severity category",
+									"itemPath": "items.0.1.items.5.items.5",
+									"itemsList": [
+										{
+											"code": "at0023",
+											"description": "The intensity of the symptom or sign does not cause interference with normal activity.",
+											"text": "Mild"
+										},
+										{
+											"code": "at0024",
+											"description": "The intensity of the symptom or sign causes interference with normal activity.",
+											"text": "Moderate"
+										},
+										{
+											"code": "at0025",
+											"description": "The intensity of the symptom or sign causes prevents normal activity.",
+											"text": "Severe"
+										}
+									],
+									"node": {
+										"code": "at0021",
+										"description": "Category representing the overall severity of the symptom or sign.",
+										"text": "Severity category"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[at0021]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"terminology": "local",
+									"terminology_id": "local",
+									"value": null
+								},
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_DATE_TIME",
+									"itemName": "Resolution date/time",
+									"itemPath": "items.0.1.items.5.items.6",
+									"node": {
+										"code": "at0161",
+										"description": "The timing of the cessation of this episode of the symptom or sign.",
+										"text": "Resolution date/time"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[at0161]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"value": {
+										"date": null,
+										"time": null
+									}
+								}
+							],
+							"node": {
+								"code": "at0000",
+								"description": "Reported observation of a physical or mental disturbance in an individual.",
+								"text": "Symptom/Sign"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.symptom_sign.v2]/[openEHR-EHR-CLUSTER.symptom_sign.v2]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"xsi_type": "C_ARCHETYPE_ROOT"
+						}
+					],
+					"node": {
+						"code": "at0000",
+						"description": "Reported observation of a physical or mental disturbance in an individual.",
+						"text": "Symptom/Sign"
+					},
+					"occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-CLUSTER.symptom_sign.v2]",
+					"ruleMandatory": [],
+					"ruleVisibility": [],
+					"xsi_type": "C_ARCHETYPE_ROOT"
+				},
+				{
+					"Functions": [],
+					"InternalFunctions": [],
+					"Occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"Refset": [],
+					"TaskEditable": [
+						"All"
+					],
+					"TaskInReport": [
+						"All"
+					],
+					"TaskVisible": [
+						"All"
+					],
+					"archetype_id": "openEHR-EHR-OBSERVATION.abbey_pain_scale.v0",
+					"data_type": "Title",
+					"itemName": "Abbey pain scale",
+					"itemPath": "items.0.2",
+					"items": [
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_CODED_TEXT",
+							"itemName": "Pain score category",
+							"itemPath": "items.0.2.items.0",
+							"itemsList": [
+								{
+									"code": "at0016",
+									"description": "Total pain score 0-2.",
+									"text": "No pain"
+								},
+								{
+									"code": "at0017",
+									"description": "Total pain score 3-7.",
+									"text": "Mild pain"
+								},
+								{
+									"code": "at0018",
+									"description": "Total pain score 8-13.",
+									"text": "Moderate pain"
+								},
+								{
+									"code": "at0019",
+									"description": "Total pain score 14+.",
+									"text": "Severe pain"
+								}
+							],
+							"node": {
+								"code": "at0015",
+								"description": "Category of pain, based on the total score.",
+								"text": "Pain score category"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.abbey_pain_scale.v0]/[at0015]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"terminology": "local",
+							"terminology_id": "local",
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_CODED_TEXT",
+							"itemName": "Type of pain",
+							"itemPath": "items.0.2.items.1",
+							"itemsList": [
+								{
+									"code": "at0021",
+									"text": "Chronic"
+								},
+								{
+									"code": "at0022",
+									"text": "Acute"
+								}
+							],
+							"node": {
+								"code": "at0020",
+								"text": "Type of pain"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.abbey_pain_scale.v0]/[at0020]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"terminology": "local",
+							"terminology_id": "local",
+							"value": null
+						},
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 1,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"dataType": "DV_DATE_TIME",
+							"itemName": "time",
+							"itemPath": "items.0.2.items.2",
+							"node": {
+								"code": "",
+								"description": "Time origin of this event history. The first event is not necessarily at the origin point.",
+								"text": "time"
+							},
+							"occurrences": {
+								"lowerOccurrences": 1,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.abbey_pain_scale.v0]/time",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"value": {
+								"date": null,
+								"time": null
+							}
+						}
+					],
+					"node": {
+						"code": "at0000",
+						"description": "Rapid tool to assess the severity of pain in cognitively impaired and non-verbal individuals.",
+						"text": "Abbey pain scale"
+					},
+					"occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.abbey_pain_scale.v0]",
+					"ruleMandatory": [],
+					"ruleVisibility": [],
+					"xsi_type": "C_ARCHETYPE_ROOT"
+				},
+				{
+					"Functions": [],
+					"InternalFunctions": [],
+					"Occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"Refset": [],
+					"TaskEditable": [
+						"All"
+					],
+					"TaskInReport": [
+						"All"
+					],
+					"TaskVisible": [
+						"All"
+					],
+					"archetype_id": "openEHR-EHR-OBSERVATION.phq_9.v0",
+					"data_type": "Title",
+					"itemName": "Patient health questionnaire-9 (PHQ-9)",
+					"itemPath": "items.0.3",
+					"items": [
+						{
+							"Functions": [],
+							"InternalFunctions": [],
+							"Occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"Refset": [],
+							"TaskEditable": [
+								"All"
+							],
+							"TaskInReport": [
+								"All"
+							],
+							"TaskVisible": [
+								"All"
+							],
+							"data_type": "Title",
+							"itemName": "Point in Time",
+							"itemPath": "items.0.3.items.0",
+							"items": [
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_ORDINAL",
+									"itemName": "Sleep issues",
+									"itemPath": "items.0.3.items.0.items.0",
+									"itemsList": [
+										{
+											"code": "at0005",
+											"description": "The topic of the question has not affected the subject at all during the last two weeks.",
+											"text": "Not at all",
+											"value": 0
+										},
+										{
+											"code": "at0006",
+											"description": "The topic of the question has affected the subject on several days during the last two weeks.",
+											"text": "Several days",
+											"value": 1
+										},
+										{
+											"code": "at0007",
+											"description": "The topic of the question has affected the subject more than half the days during the last two weeks.",
+											"text": "More than half the days",
+											"value": 2
+										},
+										{
+											"code": "at0008",
+											"description": "The topic of the question has affected the subject nearly every day during the last two weeks.",
+											"text": "Nearly every day",
+											"value": 3
+										}
+									],
+									"node": {
+										"code": "at0012",
+										"description": "Over the last two weeks, how often have you been bothered by trouble falling or staying asleep, or sleeping too much?",
+										"text": "Sleep issues"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.phq_9.v0]/[at0002]/[at0012]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"value": null
+								},
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_ORDINAL",
+									"itemName": "Tired/little energy",
+									"itemPath": "items.0.3.items.0.items.1",
+									"itemsList": [
+										{
+											"code": "at0005",
+											"description": "The topic of the question has not affected the subject at all during the last two weeks.",
+											"text": "Not at all",
+											"value": 0
+										},
+										{
+											"code": "at0006",
+											"description": "The topic of the question has affected the subject on several days during the last two weeks.",
+											"text": "Several days",
+											"value": 1
+										},
+										{
+											"code": "at0007",
+											"description": "The topic of the question has affected the subject more than half the days during the last two weeks.",
+											"text": "More than half the days",
+											"value": 2
+										},
+										{
+											"code": "at0008",
+											"description": "The topic of the question has affected the subject nearly every day during the last two weeks.",
+											"text": "Nearly every day",
+											"value": 3
+										}
+									],
+									"node": {
+										"code": "at0013",
+										"description": "Over the last two weeks, how often have you been bothered by feeling tired or having little energy?",
+										"text": "Tired/little energy"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.phq_9.v0]/[at0002]/[at0013]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"value": null
+								},
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_ORDINAL",
+									"itemName": "Appetite",
+									"itemPath": "items.0.3.items.0.items.2",
+									"itemsList": [
+										{
+											"code": "at0005",
+											"description": "The topic of the question has not affected the subject at all during the last two weeks.",
+											"text": "Not at all",
+											"value": 0
+										},
+										{
+											"code": "at0006",
+											"description": "The topic of the question has affected the subject on several days during the last two weeks.",
+											"text": "Several days",
+											"value": 1
+										},
+										{
+											"code": "at0007",
+											"description": "The topic of the question has affected the subject more than half the days during the last two weeks.",
+											"text": "More than half the days",
+											"value": 2
+										},
+										{
+											"code": "at0008",
+											"description": "The topic of the question has affected the subject nearly every day during the last two weeks.",
+											"text": "Nearly every day",
+											"value": 3
+										}
+									],
+									"node": {
+										"code": "at0014",
+										"description": "Over the last two weeks, how often have you been bothered by poor appetite or overeating?",
+										"text": "Appetite"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.phq_9.v0]/[at0002]/[at0014]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"value": null
+								},
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_ORDINAL",
+									"itemName": "Trouble concentrating",
+									"itemPath": "items.0.3.items.0.items.3",
+									"itemsList": [
+										{
+											"code": "at0005",
+											"description": "The topic of the question has not affected the subject at all during the last two weeks.",
+											"text": "Not at all",
+											"value": 0
+										},
+										{
+											"code": "at0006",
+											"description": "The topic of the question has affected the subject on several days during the last two weeks.",
+											"text": "Several days",
+											"value": 1
+										},
+										{
+											"code": "at0007",
+											"description": "The topic of the question has affected the subject more than half the days during the last two weeks.",
+											"text": "More than half the days",
+											"value": 2
+										},
+										{
+											"code": "at0008",
+											"description": "The topic of the question has affected the subject nearly every day during the last two weeks.",
+											"text": "Nearly every day",
+											"value": 3
+										}
+									],
+									"node": {
+										"code": "at0016",
+										"description": "Over the last two weeks, how often have you been bothered by trouble concentrating on things, such as reading the newspaper or watching television?",
+										"text": "Trouble concentrating"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.phq_9.v0]/[at0002]/[at0016]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"value": null
+								},
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_ORDINAL",
+									"itemName": "Death/self-harm",
+									"itemPath": "items.0.3.items.0.items.4",
+									"itemsList": [
+										{
+											"code": "at0005",
+											"description": "The topic of the question has not affected the subject at all during the last two weeks.",
+											"text": "Not at all",
+											"value": 0
+										},
+										{
+											"code": "at0006",
+											"description": "The topic of the question has affected the subject on several days during the last two weeks.",
+											"text": "Several days",
+											"value": 1
+										},
+										{
+											"code": "at0007",
+											"description": "The topic of the question has affected the subject more than half the days during the last two weeks.",
+											"text": "More than half the days",
+											"value": 2
+										},
+										{
+											"code": "at0008",
+											"description": "The topic of the question has affected the subject nearly every day during the last two weeks.",
+											"text": "Nearly every day",
+											"value": 3
+										}
+									],
+									"node": {
+										"code": "at0018",
+										"description": "Over the last two weeks, how often have you been bothered \r\nby thoughts that you would be better off dead or of hurting yourself in some way?",
+										"text": "Death/self-harm"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.phq_9.v0]/[at0002]/[at0018]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"value": null
+								},
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_CODED_TEXT",
+									"itemName": "Difficulty in life activities",
+									"itemPath": "items.0.3.items.0.items.5",
+									"itemsList": [
+										{
+											"code": "at0020",
+											"description": "The individual found no difficulty working, taking care of things at home or getting along with other people.",
+											"text": "No difficulty at all"
+										},
+										{
+											"code": "at0021",
+											"description": "The individual found it somewhat difficult to work, take care of things at home or get along with other people.",
+											"text": "Somewhat difficult"
+										},
+										{
+											"code": "at0022",
+											"description": "The individual found it very difficult to work, take care of things at home or get along with other people.",
+											"text": "Very difficult"
+										},
+										{
+											"code": "at0023",
+											"description": "The individual found it extremely difficult to work, take care of things at home or get along with other people.",
+											"text": "Extremely difficult"
+										}
+									],
+									"node": {
+										"code": "at0019",
+										"description": "If you checked off any problems on this questionnaire, how difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?",
+										"text": "Difficulty in life activities"
+									},
+									"occurrences": {
+										"lowerOccurrences": 0,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.phq_9.v0]/[at0002]/[at0019]",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"terminology": "local",
+									"terminology_id": "local",
+									"value": null
+								},
+								{
+									"Functions": [],
+									"InternalFunctions": [],
+									"Occurrences": {
+										"lowerOccurrences": 1,
+										"upperOccurrences": 1
+									},
+									"Refset": [],
+									"TaskEditable": [
+										"All"
+									],
+									"TaskInReport": [
+										"All"
+									],
+									"TaskVisible": [
+										"All"
+									],
+									"dataType": "DV_DATE_TIME",
+									"itemName": "time",
+									"itemPath": "items.0.3.items.0.items.6",
+									"node": {
+										"code": "",
+										"description": "Time origin of this event history. The first event is not necessarily at the origin point.",
+										"text": "time"
+									},
+									"occurrences": {
+										"lowerOccurrences": 1,
+										"upperOccurrences": 1
+									},
+									"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.phq_9.v0]/[at0002]/time",
+									"ruleMandatory": [],
+									"ruleVisibility": [],
+									"value": {
+										"date": null,
+										"time": null
+									}
+								}
+							],
+							"node": {
+								"code": "at0002",
+								"description": "A specific date and/or time which may be explicitly defined in a template or at run-time.",
+								"text": "Point in Time"
+							},
+							"occurrences": {
+								"lowerOccurrences": 0,
+								"upperOccurrences": 1
+							},
+							"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.phq_9.v0]/[at0002]",
+							"ruleMandatory": [],
+							"ruleVisibility": [],
+							"xsi_type": "C_COMPLEX_OBJECT"
+						}
+					],
+					"node": {
+						"code": "at0000",
+						"description": "Screening questionnaire for mental health that can be used by health professionals or self-reported by individuals.",
+						"text": "Patient health questionnaire-9 (PHQ-9)"
+					},
+					"occurrences": {
+						"lowerOccurrences": 0,
+						"upperOccurrences": 1
+					},
+					"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]/[openEHR-EHR-OBSERVATION.phq_9.v0]",
+					"ruleMandatory": [],
+					"ruleVisibility": [],
+					"xsi_type": "C_ARCHETYPE_ROOT"
+				}
+			]
+		],
+		"node": {
+			"code": "at0000",
+			"description": "Generic container for information provided by an individual.",
+			"text": 2
+		},
+		"occurrences": {
+			"lowerOccurrences": 1,
+			"upperOccurrences": 1
+		},
+		"path": "[openEHR-EHR-COMPOSITION.self_reported_data.v1]",
+		"rm_type_name": "COMPOSITION",
+		"ruleMandatory": [],
+		"ruleVisibility": [],
+		"templateId": "40efd6bc-466f-420d-b6cc-e2752d96d506",
+		"templateName": "2 (1)",
+		"terminology": "",
+		"themeColor": "default"
+	}
