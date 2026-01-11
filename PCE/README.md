@@ -52,13 +52,13 @@ A aplicação segue uma arquitetura de três camadas:
 ### Frontend
 
 * _React.js_
-* _protected-aidaforms _(renderização de _templates_ _OpenEHR_)
+* _protected-aidaforms_ (renderização de _templates_ _OpenEHR_)
 * _react-calendar_ e _recharts_ (visualização de dados)
 
 ### Backend
 
 * _Node.js_ e _Express_
-*_ API RESTful_
+*_API RESTful_
 
 ### Base de Dados
 
