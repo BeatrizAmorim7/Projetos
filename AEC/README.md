@@ -9,7 +9,7 @@
 ## Sobre o Projeto
 
 A Doença Renal Crónica (CKD) é uma condição progressiva cuja deteção precoce é crucial para evitar falência renal. Este projeto aplica técnicas de **Data Mining** para identificar padrões clínicos e prever o diagnóstico da doença, seguindo a metodologia **CRISP-DM** (_Cross-Industry Standard Process for Data Mining)_.
-O objetivo principal é auxiliar a decisão clínica, minimizando falsos negativos e permitindo intervenções mais atempadas .
+O objetivo principal é auxiliar a decisão clínica, minimizando falsos negativos e permitindo intervenções mais atempadas.
 
 ## Ferramentas Utilizadas
 
@@ -30,18 +30,18 @@ O processamento dos dados seguiu etapas rigorosas para garantir a robustez dos m
 
 ### 1. Compreensão e Preparação dos Dados
 
-* **Limpeza:** Tratamento de valores em falta através da substituição pela média/moda e remoção de atributos com >30% de *missing values* .
+* **Limpeza:** Tratamento de valores em falta através da substituição pela média/moda e remoção de atributos com >30% de *missing values*.
 
-* **Feature Selection:** Identificação de atributos críticos (ex: Hemoglobina, Glóbulos Vermelhos) e remoção de redundâncias .
+* **Feature Selection:** Identificação de atributos críticos (ex: Hemoglobina, Glóbulos Vermelhos) e remoção de redundâncias.
 
-* **Balanceamento:** O dataset original apresentava desequilíbrio (62.5% CKD vs 37.5% Não-CKD). Foi aplicada a técnica **SMOTE** para gerar amostras sintéticas da classe minoritária .
+* **Balanceamento:** O dataset original apresentava desequilíbrio (62.5% CKD vs 37.5% Não-CKD). Foi aplicada a técnica **SMOTE** para gerar amostras sintéticas da classe minoritária.
 
 * **Normalização:** Aplicação de *Min-Max Scaling* e *Standardization* para modelos sensíveis à escala.
 
 
 ### 2. Modelação
 
-Foram desenvolvidos e avaliados 5 algoritmos de classificação supervisionada :
+Foram desenvolvidos e avaliados 5 algoritmos de classificação supervisionada:
 
 * Random Forest Classifier
 * Support Vector Machine (SVM)
@@ -56,4 +56,4 @@ Adicionalmente, foi testada uma abordagem não supervisionada com **K-Means Clus
 O modelo **Random Forest** demonstrou ser o mais eficaz e robusto, especialmente quando combinado com técnicas de balanceamento de dados.
 
 **Insights Clínicos:**
-A análise permitiu confirmar fortes correlações entre a CKD e comorbilidades como a hipertensão e diabetes, bem como a importância vital dos níveis de hemoglobina como biomarcador .
+A análise permitiu confirmar fortes correlações entre a CKD e comorbilidades como a hipertensão e diabetes, bem como a importância vital dos níveis de hemoglobina como biomarcador.
