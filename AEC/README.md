@@ -51,9 +51,9 @@ Foram desenvolvidos e avaliados 5 algoritmos de classificação supervisionada :
 
 Adicionalmente, foi testada uma abordagem não supervisionada com **K-Means Clustering**.
 
-## 🚀 Resultados Principais
+## Resultados Principais
 
 O modelo **Random Forest** demonstrou ser o mais eficaz e robusto, especialmente quando combinado com técnicas de balanceamento de dados.
 
 **Insights Clínicos:**
-A análise permitiu confirmar fortes correlações entre a CKD e comorbilidades como a Hipertensão e Diabetes, bem como a importância vital dos níveis de hemoglobina como biomarcador .
+A análise permitiu confirmar fortes correlações entre a CKD e comorbilidades como a hipertensão e diabetes, bem como a importância vital dos níveis de hemoglobina como biomarcador .
