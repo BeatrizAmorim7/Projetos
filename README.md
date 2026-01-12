@@ -18,7 +18,7 @@ Este repositório reúne alguns dos projetos desenvolvidos durante o Mestrado em
 ---
 
 ### [Monitorização e Gestão da Dor](PCE)
-**Objetivo:** Permitir registo, acompanhamento e análise de episódios de dor aguda e crónica.  
+**Objetivo:** Permitir o registo, acompanhamento e análise de episódios de dor aguda e crónica.  
 **Descrição resumida:**  
 - Formulários clínicos estruturados (**OpenEHR**).  
 - Dashboards interativos, mapa corporal e gráficos de evolução.  
