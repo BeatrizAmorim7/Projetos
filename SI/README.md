@@ -38,11 +38,11 @@ Este projeto propõe uma abordagem baseada em **agentes inteligentes**, capazes 
 O sistema foi desenvolvido com recurso à plataforma **SPADE**, utilizando comunicação baseada no protocolo **FIPA-ACL**.
 
 ### Tipos de Agentes
-- **DonorAgent** – Notifica a disponibilidade de órgãos para doação;
-- **RecipientAgent** – Solicita órgãos e gere a receção de informação;
-- **HospitalAgent** – Gere a disponibilidade hospitalar para transplantes;
-- **TransportAgent** – Gere o transporte de órgãos (e pacientes, em casos críticos);
-- **TransplantAgent** – Agente central responsável pela coordenação e tomada de decisões.
+- **_DonorAgent_** – Notifica a disponibilidade de órgãos para doação;
+- **_RecipientAgent_** – Solicita órgãos e gere a receção de informação;
+- **_HospitalAgent_** – Gere a disponibilidade hospitalar para transplantes;
+- **_TransportAgent_** – Gere o transporte de órgãos (e pacientes, em casos críticos);
+- **_TransplantAgent_** – Agente central responsável pela coordenação e tomada de decisões.
 
 
 ## Estrutura do sistema
@@ -61,13 +61,13 @@ O sistema foi desenvolvido com recurso à plataforma **SPADE**, utilizando comun
 
 Alguns dos comportamentos principais incluem:
 
-- **HospitalAvailable** – Verifica a disponibilidade hospitalar;
-- **Donation** – Regista a doação de um órgão;
-- **RequestOrgan** – Pedido de órgão por um recetor;
-- **ReceiveInfo** – Gestão central de mensagens e alocações;
-- **TransportOrgan** – Simulação do transporte do órgão;
-- **ResendOrgan** – Medida de contingência para órgãos não alocados;
-- **MonitoringWaitlist** – Gestão de listas de espera por falta de transporte;
-- **PatientReceives** – Receção de notificações pelo recetor.
+- **_HospitalAvailable_** – Verifica a disponibilidade hospitalar;
+- **_Donation_** – Regista a doação de um órgão;
+- **_RequestOrgan_** – Pedido de órgão por um recetor;
+- **_ReceiveInfo_** – Gestão central de mensagens e alocações;
+- **_TransportOrgan_** – Simulação do transporte do órgão;
+- **_ResendOrgan_** – Medida de contingência para órgãos não alocados;
+- **_MonitoringWaitlist_** – Gestão de listas de espera por falta de transporte;
+- **_PatientReceives_** – Receção de notificações pelo recetor.
 
 
