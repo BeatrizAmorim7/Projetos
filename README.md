@@ -50,10 +50,10 @@ Este README apresenta um resumo de alguns projetos desenvolvidos.
 **Objetivo:** Apoiar e otimizar a gestão do processo de transplante de órgãos, coordenando doadores, recetores, hospitais e transporte.  
 **Descrição resumida:**  
 - Sistema multiagente desenvolvido com **SPADE** e protocolo **FIPA-ACL**.  
-- Agentes implementados: DonorAgent, RecipientAgent, HospitalAgent, TransportAgent, TransplantAgent.  
+- Agentes implementados: _DonorAgent, RecipientAgent, HospitalAgent, TransportAgent, TransplantAgent. _ 
 - Considera compatibilidade biológica, urgência clínica e logística na tomada de decisão.  
 - Comportamentos principais: alocação de órgãos, monitorização de listas de espera, simulação de transporte, medidas de contingência para falhas logísticas.  
-**Tecnologias:** Python, SPADE, Agentes Inteligentes, Sistemas Multiagente, Simulação de Logística  
+**Tecnologias:** Python, SPADE, Agentes Inteligentes, Sistemas Multiagente
 
 
 ---
