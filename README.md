@@ -68,7 +68,7 @@ Este repositório reúne alguns dos projetos desenvolvidos durante o Mestrado em
 - **IA Aplicada:** Machine Learning, LLMs, Data Mining, suporte à decisão clínica.  
 - **Interoperabilidade:** OpenEHR, FHIR, integração de dados clínicos.  
 - **Sistemas Inteligentes:** Desenvolvimento de agentes, comunicação distribuída, coordenação de processos complexos.  
-- Interfaces Web/Mobile, dashboards, visualização de dados, UX.
+- Interfaces Web/Mobile, dashboards, visualização de dados.
 
 
 
