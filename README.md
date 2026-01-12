@@ -1,6 +1,6 @@
 # Portfólio de Projetos
 
-Este README reúne alguns dos projetos desenvolvidos durante o Mestrado em Informática Médica (Engenharia Biomédica), alguns dos quais em colaboração com outros estudantes.
+Este repositório reúne alguns dos projetos desenvolvidos durante o Mestrado em Informática Médica (Engenharia Biomédica), alguns dos quais em colaboração com outros estudantes.
 
 ---
 
