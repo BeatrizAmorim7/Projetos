@@ -11,7 +11,8 @@ Este README apresenta um resumo de alguns projetos desenvolvidos.
 **Descrição resumida:**  
 - Extração de PDFs para JSON.  
 - Processamento semântico com **BERT**.  
-- Aplicação Web em **Flask** para visualização de dados.  
+- Aplicação Web em **Flask** para visualização de dados.
+  
 **Tecnologias:** Python, BERT, Flask, Web Scraping  
 
 ---
@@ -21,7 +22,8 @@ Este README apresenta um resumo de alguns projetos desenvolvidos.
 **Descrição resumida:**  
 - Formulários clínicos estruturados (**OpenEHR**).  
 - Dashboards interativos, mapa corporal e gráficos de evolução.  
-- Exportação de dados interoperáveis via **FHIR**.  
+- Exportação de dados interoperáveis via **FHIR**.
+  
 **Tecnologias:** React.js, Node.js, PostgreSQL, Mirth Connect, OpenEHR  
 
 ---
@@ -31,7 +33,8 @@ Este README apresenta um resumo de alguns projetos desenvolvidos.
 **Descrição resumida:**  
 - Assistente baseado em **LLMs** (Ollama).  
 - Fine-tuning e engenharia de prompts para respostas confiáveis.  
-- Avaliação de modelos quanto a precisão, clareza e empatia.  
+- Avaliação de modelos quanto a precisão, clareza e empatia.
+  
 **Tecnologias:** Ollama, LLaMA, Mistral, Gemma-3, WebUI, Prompt Engineering  
 
 ---
@@ -41,7 +44,8 @@ Este README apresenta um resumo de alguns projetos desenvolvidos.
 **Descrição resumida:**  
 - Pré-processamento, feature selection, balanceamento de dados (SMOTE).  
 - Modelos: Random Forest, SVM, KNN, Decision Tree.  
-- Extração de insights clínicos sobre biomarcadores e comorbilidades.  
+- Extração de insights clínicos sobre biomarcadores e comorbilidades.
+  
 **Tecnologias:** Python (Jupyter), RapidMiner / Altair AI Studio  
 
 ---
@@ -52,7 +56,8 @@ Este README apresenta um resumo de alguns projetos desenvolvidos.
 - Sistema multiagente desenvolvido com **SPADE** e protocolo **FIPA-ACL**.  
 - Agentes implementados: _DonorAgent, RecipientAgent, HospitalAgent, TransportAgent, TransplantAgent._ 
 - Considera compatibilidade biológica, urgência clínica e logística na tomada de decisão.  
-- Comportamentos principais: alocação de órgãos, monitorização de listas de espera, simulação de transporte, medidas de contingência para falhas logísticas.  
+- Comportamentos principais: alocação de órgãos, monitorização de listas de espera, simulação de transporte, medidas de contingência para falhas logísticas.
+  
 **Tecnologias:** Python, SPADE, Agentes Inteligentes, Sistemas Multiagente
 
 
