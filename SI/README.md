@@ -6,11 +6,12 @@
 
 **Universidade do Minho** - 2024/2025
 
+## Sobre o projeto
 Este repositório apresenta o desenvolvimento e a implementação de um sistema multiagente.
 O sistema tem como objetivo apoiar e otimizar a **gestão do processo de transplante de órgãos**, coordenando doadores, recetores, hospitais e meios de transporte, tendo em conta critérios como compatibilidade biológica, urgência clínica e logística.
 
 
-## Contexto e Motivação
+## Contexto e motivação
 
 O transplante de órgãos é um processo altamente complexo e sensível ao tempo, envolvendo múltiplos intervenientes e restrições críticas, tais como:
 - Tempo de viabilidade do órgão;
