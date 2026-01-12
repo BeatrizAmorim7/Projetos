@@ -23,7 +23,7 @@ O transplante de órgãos é um processo altamente complexo e sensível ao tempo
 Este projeto propõe uma abordagem baseada em **agentes inteligentes**, capazes de comunicar, cooperar e tomar decisões distribuídas, de forma a aumentar a eficiência do processo e reduzir o desperdício de órgãos.
 
 
-## Objetivos do Projeto
+## Objetivos do projeto
 
 - Desenvolver um sistema multiagente para **alocação eficiente de órgãos**;
 - Considerar **compatibilidade, urgência e logística** na tomada de decisão;
@@ -33,7 +33,7 @@ Este projeto propõe uma abordagem baseada em **agentes inteligentes**, capazes 
 
 
 
-## Arquitetura do Sistema
+## Arquitetura do sistema
 
 O sistema foi desenvolvido com recurso à plataforma **SPADE**, utilizando comunicação baseada no protocolo **FIPA-ACL**.
 
@@ -45,9 +45,9 @@ O sistema foi desenvolvido com recurso à plataforma **SPADE**, utilizando comun
 - **TransplantAgent** – Agente central responsável pela coordenação e tomada de decisões.
 
 
-## Estrutura do Sistema
+## Estrutura do sistema
 
-### Classes Principais
+### Classes principais
 - `Coords` – Representação de coordenadas geográficas;
 - `Hospital` – Informação e localização hospitalar;
 - `OrganData` – Dados associados a um órgão disponível;
@@ -57,7 +57,7 @@ O sistema foi desenvolvido com recurso à plataforma **SPADE**, utilizando comun
 - `TransplantInfo` – Associação entre dador e recetor.
 
 
-## Behaviours Implementados
+## Behaviours implementados
 
 Alguns dos comportamentos principais incluem:
 
