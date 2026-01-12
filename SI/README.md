@@ -9,7 +9,6 @@
 Este repositório apresenta o desenvolvimento e a implementação de um sistema multiagente.
 O sistema tem como objetivo apoiar e otimizar a **gestão do processo de transplante de órgãos**, coordenando doadores, recetores, hospitais e meios de transporte, tendo em conta critérios como compatibilidade biológica, urgência clínica e logística.
 
----
 
 ## Contexto e Motivação
 
@@ -22,7 +21,6 @@ O transplante de órgãos é um processo altamente complexo e sensível ao tempo
 
 Este projeto propõe uma abordagem baseada em **agentes inteligentes**, capazes de comunicar, cooperar e tomar decisões distribuídas, de forma a aumentar a eficiência do processo e reduzir o desperdício de órgãos.
 
----
 
 ## Objetivos do Projeto
 
@@ -32,7 +30,7 @@ Este projeto propõe uma abordagem baseada em **agentes inteligentes**, capazes 
 - Implementar **mecanismos de contingência** para falhas logísticas ou indisponibilidade;
 - Maximizar o número de transplantes bem-sucedidos.
 
----
+
 
 ## Arquitetura do Sistema
 
@@ -45,9 +43,8 @@ O sistema foi desenvolvido com recurso à plataforma **SPADE**, utilizando comun
 - **TransportAgent** – Gere o transporte de órgãos (e pacientes, em casos críticos);
 - **TransplantAgent** – Agente central responsável pela coordenação e tomada de decisões.
 
----
 
-## 🧩 Estrutura do Sistema
+## Estrutura do Sistema
 
 ### Classes Principais
 - `Coords` – Representação de coordenadas geográficas;
@@ -58,7 +55,6 @@ O sistema foi desenvolvido com recurso à plataforma **SPADE**, utilizando comun
 - `Transporte` – Estado e localização de meios de transporte;
 - `TransplantInfo` – Associação entre dador e recetor.
 
----
 
 ## Behaviours Implementados
 
