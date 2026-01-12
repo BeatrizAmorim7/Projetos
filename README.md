@@ -1,6 +1,6 @@
-# Portfólio de Projetos – Mestrado em Engenharia Biomédica (UMinho, 2024/2025)
+# Portfólio de Projetos
 
-Este README apresenta um resumo de alguns projetos desenvolvidos.
+Este README reúne alguns dos projetos desenvolvidos durante o Mestrado em Informática Médica (Engenharia Biomédica), alguns dos quais em colaboração com outros estudantes.
 
 ---
 
