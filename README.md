@@ -46,9 +46,24 @@ Este README apresenta um resumo de alguns projetos desenvolvidos.
 
 ---
 
+### [Sistema Multiagente para Gestão de Transplantes de Órgãos](SI)
+**Objetivo:** Apoiar e otimizar a gestão do processo de transplante de órgãos, coordenando doadores, recetores, hospitais e transporte.  
+**Descrição resumida:**  
+- Sistema multiagente desenvolvido com **SPADE** e protocolo **FIPA-ACL**.  
+- Agentes implementados: DonorAgent, RecipientAgent, HospitalAgent, TransportAgent, TransplantAgent.  
+- Considera compatibilidade biológica, urgência clínica e logística na tomada de decisão.  
+- Comportamentos principais: alocação de órgãos, monitorização de listas de espera, simulação de transporte, medidas de contingência para falhas logísticas.  
+**Tecnologias:** Python, SPADE, Agentes Inteligentes, Sistemas Multiagente, Simulação de Logística  
+
+
+---
+
 ## Competências Demonstradas
 - **PLN:** Extração, limpeza, análise e semântica de textos clínicos.  
 - **IA Aplicada:** Machine Learning, LLMs, Data Mining, suporte à decisão clínica.  
-- **Interoperabilidade** OpenEHR, FHIR, integração de dados clínicos.
-- Interfaces Web/Mobile, dashboards, visualização de dados, UX.  
+- **Interoperabilidade:** OpenEHR, FHIR, integração de dados clínicos.  
+- **Sistemas Inteligentes:** Desenvolvimento de agentes, comunicação distribuída, coordenação de processos complexos.  
+- Interfaces Web/Mobile, dashboards, visualização de dados, UX.
+
+
 
